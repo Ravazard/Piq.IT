@@ -28,8 +28,3 @@ dist-ssr
 *.sln
 *.sw?
 
-# Internal Documentation & Rebuild Guides (Do not push to GitHub)
-IMPLEMENTATION_GUIDE.md
-ARCHITECTURE.md
-DESIGN_SYSTEM.md
-AGENT_REBUILD_INSTRUCTIONS.md
