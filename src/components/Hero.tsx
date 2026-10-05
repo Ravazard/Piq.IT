@@ -91,9 +91,9 @@ export const Hero: React.FC<HeroProps> = ({ onTabClick }) => {
           bottom: 0,
           left: 0,
           width: '100%',
-          height: isMobile ? '452px' : '400px',
+          height: isMobile ? '452px' : '520px',
           background:
-            'linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 25%, rgba(0, 0, 0, 0.75) 44%, #000000 100%)',
+            'linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 25%, rgba(0, 0, 0, 0.75) 44%, #000000 47%)',
           backdropFilter: 'blur(30px)',
           WebkitBackdropFilter: 'blur(30px)',
           WebkitMaskImage:
