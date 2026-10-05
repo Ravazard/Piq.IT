@@ -1,0 +1,22 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="15" height="631" viewBox="0 0 15 631" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 466">
+<g id="Line 41" filter="url(#filter0_f_393_284)">
+<path d="M7.5 7.5L7.50001 336.5" stroke="#492020" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g id="Line 42" filter="url(#filter1_f_393_284)">
+<path d="M7.5 623.5L7.50001 336.5" stroke="#492020" stroke-width="3" stroke-linecap="round"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_393_284" x="0" y="0" width="15" height="344" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="3" result="effect1_foregroundBlur_393_284"/>
+</filter>
+<filter id="filter1_f_393_284" x="0" y="329" width="15" height="302" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="3" result="effect1_foregroundBlur_393_284"/>
+</filter>
+</defs>
+</svg>
