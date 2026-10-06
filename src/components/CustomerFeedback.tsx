@@ -1075,7 +1075,7 @@ const MobileFeedbackCardItem: React.FC<MobileCardItemProps> = ({
         style={{
           fontFamily: "'Montserrat', sans-serif",
           fontWeight: 500,
-          fontSize: '22px',
+          fontSize: '24px',
           lineHeight: 1.15,
           letterSpacing: '-1.2px',
           color: '#000000',
@@ -1090,7 +1090,7 @@ const MobileFeedbackCardItem: React.FC<MobileCardItemProps> = ({
           style={{
             fontFamily: "'Montserrat', sans-serif",
             fontWeight: 400,
-            fontSize: '14px',
+            fontSize: '16px',
             color: '#c5422b',
             lineHeight: 1.35,
             marginBottom: '20px',
@@ -1105,7 +1105,7 @@ const MobileFeedbackCardItem: React.FC<MobileCardItemProps> = ({
           style={{
             fontFamily: "'Montserrat', sans-serif",
             fontWeight: 400,
-            fontSize: '14px',
+            fontSize: '16px',
             color: '#c5422b',
             lineHeight: 1.35,
             marginBottom: '20px',
@@ -1123,7 +1123,7 @@ const MobileFeedbackCardItem: React.FC<MobileCardItemProps> = ({
               margin: '0 0 10px 0',
               fontFamily: "'Montserrat', sans-serif",
               fontWeight: 400,
-              fontSize: '14px',
+              fontSize: '16px',
               color: '#000000',
               lineHeight: 1.35,
             }}
@@ -1135,7 +1135,7 @@ const MobileFeedbackCardItem: React.FC<MobileCardItemProps> = ({
               margin: 0,
               fontFamily: "'Montserrat', sans-serif",
               fontWeight: 400,
-              fontSize: '10px',
+              fontSize: '12px',
               color: '#000000',
               lineHeight: 1.35,
             }}
@@ -1152,7 +1152,7 @@ const MobileFeedbackCardItem: React.FC<MobileCardItemProps> = ({
               margin: '0 0 12px 0',
               fontFamily: "'Montserrat', sans-serif",
               fontWeight: 400,
-              fontSize: '14px',
+              fontSize: '16px',
               color: '#000000',
               lineHeight: 1.35,
             }}
@@ -1163,7 +1163,7 @@ const MobileFeedbackCardItem: React.FC<MobileCardItemProps> = ({
             style={{
               fontFamily: "'Montserrat', sans-serif",
               fontWeight: 400,
-              fontSize: '14px',
+              fontSize: '16px',
               color: '#000000',
               marginBottom: '2px',
             }}
@@ -1174,7 +1174,7 @@ const MobileFeedbackCardItem: React.FC<MobileCardItemProps> = ({
             style={{
               fontFamily: "'Montserrat', sans-serif",
               fontWeight: 500,
-              fontSize: '22px',
+              fontSize: '24px',
               lineHeight: 1.15,
               letterSpacing: '-1.2px',
               color: '#000000',
@@ -1199,7 +1199,7 @@ const MobileFeedbackCardItem: React.FC<MobileCardItemProps> = ({
             style={{
               fontFamily: "'Montserrat', sans-serif",
               fontWeight: 600,
-              fontSize: '18px',
+              fontSize: '20px',
               color: '#000000',
               lineHeight: 1.2,
             }}
@@ -1210,7 +1210,7 @@ const MobileFeedbackCardItem: React.FC<MobileCardItemProps> = ({
             style={{
               fontFamily: "'Montserrat', sans-serif",
               fontWeight: 400,
-              fontSize: '12px',
+              fontSize: '14px',
               color: '#000000',
               marginTop: '4px',
               lineHeight: 1.25,

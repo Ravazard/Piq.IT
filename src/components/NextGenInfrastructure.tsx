@@ -111,7 +111,7 @@ export const NextGenInfrastructure: React.FC = () => {
               borderRadius: '36px',
               padding: isMobile ? '8px 24px' : '12px 32px',
               color: 'var(--color-accent)',
-              fontSize: isMobile ? '16px' : '24px',
+              fontSize: isMobile ? '18px' : '24px',
               fontWeight: 600,
               letterSpacing: isMobile ? '-0.5px' : '-1px',
               marginBottom: isMobile ? '20px' : '40px',

@@ -192,7 +192,7 @@ export const EcosystemCard: React.FC<EcosystemCardProps> = ({
           <span
             style={{
               fontFamily: "'Montserrat', sans-serif",
-              fontSize: isMobile ? '16px' : '20px',
+              fontSize: isMobile ? '18px' : '20px',
               fontWeight: 600,
               color: '#ffffff',
               whiteSpace: 'nowrap',
@@ -279,7 +279,7 @@ export const EcosystemCard: React.FC<EcosystemCardProps> = ({
                   <span
                     style={{
                       fontFamily: "'Montserrat', sans-serif",
-                      fontSize: '16px',
+                      fontSize: isMobile ? '18px' : '16px',
                       fontWeight: 600,
                       lineHeight: '24px',
                       letterSpacing: '-0.24px',
@@ -327,7 +327,7 @@ export const EcosystemCard: React.FC<EcosystemCardProps> = ({
           <div
             style={{
               fontFamily: "'Montserrat', sans-serif",
-              fontSize: isMobile ? '20px' : '22px',
+              fontSize: '22px',
               fontWeight: 500,
               lineHeight: 1.1,
               letterSpacing: '-1.5px',

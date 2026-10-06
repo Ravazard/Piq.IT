@@ -287,7 +287,7 @@ const DesignStudioCapabilityCard: React.FC<DesignStudioCapabilityCardProps> = ({
               style={{
                 fontFamily: "'Montserrat', sans-serif",
                 fontWeight: 400,
-                fontSize: '15px',
+                fontSize: isMobile ? '17px' : '15px',
                 lineHeight: 1.35,
                 letterSpacing: '-0.3px',
                 color: '#492020',
@@ -431,8 +431,8 @@ export const DesignStudioCapabilities: React.FC = () => {
             id="card-tech-packs"
             frontImage={imgTechPacks}
             frontImagePosition={isMobile ? '67% 20%' : '64% 20%'}
-            frontTitle={isMobile ? 'Tech Pack Synthesis' : 'Tech Packs'}
-            backTitle={isMobile ? 'Tech Pack Synthesis' : 'Tech Pack'}
+            frontTitle="Tech Packs"
+            backTitle="Tech Packs"
             backDescription="Seamless development of clear, detailed, production-ready tech packs"
             backIcon={iconTechPacks}
             isMobile={isMobile}
@@ -444,13 +444,13 @@ export const DesignStudioCapabilities: React.FC = () => {
             id="card-virtual-sampling"
             frontImage={imgVirtualSampling}
             frontImagePosition={isMobile ? '22% center' : '11% center'}
-            frontTitle={isMobile ? 'Design Visualization' : (
+            frontTitle={isMobile ? 'Virtual Sampling' : (
               <>
                 Virtual <br />
                 Sampling
               </>
             )}
-            backTitle={isMobile ? 'Design Visualization' : (
+            backTitle={isMobile ? 'Virtual Sampling' : (
               <>
                 Virtual <br />
                 Sampling

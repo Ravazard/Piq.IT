@@ -105,7 +105,7 @@ export const ConnectedEcosystem: React.FC = () => {
               borderRadius: '36px',
               padding: isMobile ? '8px 24px' : '11px 32px',
               color: '#c5422b',
-              fontSize: isMobile ? '16px' : '24px',
+              fontSize: isMobile ? '18px' : '24px',
               fontWeight: 600,
               letterSpacing: isMobile ? '-1px' : '-1.5px',
               width: 'fit-content',
