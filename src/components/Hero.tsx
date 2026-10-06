@@ -244,7 +244,7 @@ export const Hero: React.FC<HeroProps> = ({ onTabClick }) => {
                 '0px 10px 43.3px 0px rgba(0, 0, 0, 0.2)';
             }}
           >
-            Get in touch
+            Get in Touch
           </button>
         </div>
       </div>

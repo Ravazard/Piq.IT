@@ -344,7 +344,7 @@ export const SourcingHubCapabilities: React.FC = () => {
             id="card-quality-assurance"
             title="Check
 Quality"
-            description="Ispections during and after production to AQL 2.5, with photo proof, so quality stays consistent and every issue is traceable"
+            description="Inspections during and after production to AQL 2.5, with photo proof, so quality stays consistent and every issue is traceable"
             image={card3Img}
             pattern={pattern1}
             imagePosition="bottom"

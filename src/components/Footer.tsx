@@ -12,7 +12,7 @@ const FOOTER_TABS = [
   { name: 'Home', targetId: 'hero' },
   { name: 'Design Studio', targetId: 'ecosystem' },
   { name: 'Sourcing Hub', targetId: 'ecosystem' },
-  { name: 'Content lab', targetId: 'ecosystem' },
+  { name: 'Content Lab', targetId: 'ecosystem' },
   { name: 'Commerce Grid', targetId: 'ecosystem' },
 ];
 

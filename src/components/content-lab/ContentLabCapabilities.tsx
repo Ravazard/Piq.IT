@@ -405,7 +405,7 @@ export const ContentLabCapabilities: React.FC = () => {
                 <p style={{ margin: 0, lineHeight: 1.1 }}>Listing</p>
               </>
             }
-            description="Generate accurate product attributes for commerce ready catalogue"
+            description="Generate accurate product attributes for commerce-ready catalogue"
             graphics={
               <>
                 <div

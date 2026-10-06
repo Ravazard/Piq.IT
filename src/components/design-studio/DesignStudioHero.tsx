@@ -167,7 +167,7 @@ export const DesignStudioHero: React.FC<DesignStudioHeroProps> = ({
             <>
               Designing
               <br />
-              what’s Next
+              What’s Next
             </>
           ) : (
             'Designing What’s Next'

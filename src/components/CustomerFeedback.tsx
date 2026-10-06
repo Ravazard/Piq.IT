@@ -28,7 +28,7 @@ const desktopCards: FeedbackCardData[] = [
     headline:
       'With Piqit, we have seen sharp improvements in sales performance, merchandising efficiency, and marketplace execution',
     highlightText:
-      'A truly reliable partner that understand both fashion and technology.',
+      'A truly reliable partner that understands both fashion and technology.',
   },
   {
     id: 'jplc',
@@ -48,7 +48,7 @@ const desktopCards: FeedbackCardData[] = [
     supportingText:
       'They take raw product shoots and quickly turn them into a steady stream of high-converting, ad-ready assets across all our digital channels.',
     highlightSecondary:
-      'A massive shoutout to the PIQIT team. They understand performance marketing, brand aesthetics, and platform specs, and working with them feels like an extension of our own team. Their speed and proactive problem-solving have been a gamechanger for keeping our campaigns on track.',
+      'A massive shoutout to the PIQIT team. They understand performance marketing, brand aesthetics, and platform specs, and working with them feels like an extension of our own team. Their speed and proactive problem-solving have been a game-changer for keeping our campaigns on track.',
   },
   {
     id: 'pvh',

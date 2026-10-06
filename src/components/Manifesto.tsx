@@ -13,7 +13,7 @@ export const Manifesto: React.FC = () => {
       </h2>
 
       <p style={{ fontSize: '24px', fontWeight: 300, color: 'black', maxWidth: '553px', margin: '0 auto', lineHeight: 1.1, letterSpacing: '-1.5px' }}>
-        Piqit connects the entire retail lifecycle through one AI-powered ecosystem for faster launch , smarter operations and global scalling
+        Piqit connects the entire retail lifecycle through one AI-powered ecosystem for faster launch, smarter operations and global scaling
       </p>
     </section>
   );

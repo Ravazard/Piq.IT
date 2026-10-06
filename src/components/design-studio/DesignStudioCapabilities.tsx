@@ -400,7 +400,7 @@ export const DesignStudioCapabilities: React.FC = () => {
             frontImagePosition={isMobile ? '78% center' : '72% center'}
             frontTitle="Trend Intelligence"
             backTitle="Trend Intelligence"
-            backDescription="Spotting what’s next to shape for meaningful market ready designs"
+            backDescription="Spotting what’s next to shape for meaningful market-ready designs"
             backIcon={iconTrend}
             isMobile={isMobile}
             isVisible={isVisible}
