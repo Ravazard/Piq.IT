@@ -363,7 +363,7 @@ export const CommerceGridHero: React.FC<CommerceGridHeroProps> = ({
         <h1
           style={{
             fontFamily: "'Montserrat', sans-serif",
-            fontWeight: 700,
+            fontWeight: 600,
             fontSize: isMobile ? 'clamp(30px, 8.5vw, 36px)' : 'clamp(44px, 5.16vw, 72px)',
             lineHeight: 1.1,
             letterSpacing: isMobile ? '-1.5px' : '-2.3321px',

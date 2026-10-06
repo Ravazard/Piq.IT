@@ -152,7 +152,7 @@ export const DesignStudioHero: React.FC<DesignStudioHeroProps> = ({
         <h1
           style={{
             fontFamily: "'Montserrat', sans-serif",
-            fontWeight: 700,
+            fontWeight: 600,
             fontSize: isMobile ? 'clamp(32px, 8.8vw, 40px)' : 'clamp(44px, 5.1vw, 72px)',
             lineHeight: 1.1,
             letterSpacing: '-2.3321px',

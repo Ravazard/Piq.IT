@@ -219,7 +219,7 @@ export const ContentLabCapabilities: React.FC = () => {
         <h2
           style={{
             fontFamily: "'Montserrat', sans-serif",
-            fontWeight: 700,
+            fontWeight: 600,
             fontSize: isMobile ? '36px' : '60px',
             lineHeight: 1.15,
             letterSpacing: '-2.3321px',

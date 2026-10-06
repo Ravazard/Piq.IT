@@ -55,7 +55,7 @@ const MobileSequenceCard: React.FC<{
       <h3
         style={{
           fontFamily: "'Montserrat', sans-serif",
-          fontWeight: 700,
+          fontWeight: 600,
           fontSize: '32px',
           lineHeight: 1.1,
           letterSpacing: '-1.5px',

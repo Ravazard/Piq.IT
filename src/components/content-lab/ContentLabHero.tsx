@@ -154,7 +154,7 @@ export const ContentLabHero: React.FC<ContentLabHeroProps> = ({
         <h1
           style={{
             fontFamily: "'Montserrat', sans-serif",
-            fontWeight: 700,
+            fontWeight: 600,
             fontSize: isMobile ? 'clamp(32px, 8.8vw, 40px)' : 'clamp(44px, 5.16vw, 72px)',
             lineHeight: 1.1,
             letterSpacing: isMobile ? '-1.5px' : '-2.3321px',

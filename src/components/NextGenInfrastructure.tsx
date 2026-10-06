@@ -174,17 +174,21 @@ export const NextGenInfrastructure: React.FC = () => {
             display: 'flex',
             flexDirection: isMobile ? 'column' : 'row',
             alignItems: isMobile ? 'center' : 'stretch',
-            justifyContent: 'center',
+            justifyContent: isMobile ? 'center' : 'flex-start',
             gap: isMobile ? '34px' : '30px',
             overflowX: isMobile ? 'visible' : 'auto',
             overflowY: 'hidden',
-            paddingBottom: isMobile ? '0' : '30px',
+            paddingTop: isMobile ? '0' : '40px',
+            paddingBottom: isMobile ? '0' : '80px',
+            paddingLeft: isMobile ? '0' : '50px',
+            paddingRight: isMobile ? '0' : '50px',
+            margin: isMobile ? '0' : '-40px -50px -50px',
             cursor: !isMobile && isDragging ? 'grabbing' : !isMobile ? 'grab' : 'default',
             scrollbarWidth: isMobile ? 'none' : 'thin',
             scrollbarColor: 'var(--color-accent) rgba(0,0,0,0.06)',
             scrollBehavior: isDragging ? 'auto' : 'smooth',
             WebkitOverflowScrolling: 'touch',
-            width: '100%',
+            width: isMobile ? '100%' : 'calc(100% + 100px)',
             boxSizing: 'border-box',
           }}
         >
@@ -202,16 +206,22 @@ export const NextGenInfrastructure: React.FC = () => {
             pointers={[
               'Insights · Assortments · Sales'
             ]}
+            descriptionFontSize="24px"
+            descriptionWidth="340px"
+            descriptionLetterSpacing="-0.36px"
+            descriptionTextTransform="none"
             description={
               isMobile ? (
                 <>
-                  Built on Fashion<br /> Expertise.<br />
+                  Built on Fashion Expertise.<br />
                   Product, merchandising <br />and consumer <br />intelligence.
                 </>
               ) : (
                 <>
-                  Built on Fashion<br /> Expertise.<br />
-                  Product,<br />  merchandising and <br /> consumer intelligence.
+                  Built on Fashion Expertise.<br />
+                  Product, merchandising<br />
+                  and consumer<br />
+                  intelligence.
                 </>
               )
             }
@@ -249,18 +259,16 @@ export const NextGenInfrastructure: React.FC = () => {
             description={
               isMobile ? (
                 <>
-                  Intelligence at Every <br />
-                  Step.<br />
-                  AI across trends,<br />
-                  design, content and <br />
+                  Intelligence at Every Step.<br />
+                  AI across trends, design,<br />
+                  content and <br />
                   commerce.
                 </>
               ) : (
                 <>
-                  Intelligence at Every <br />
-                  Step.<br />
-                  AI across trends,<br />
-                  design, content and <br />
+                  Intelligence at Every Step.<br />
+                  AI across trends, design,<br />
+                  content and <br />
                   commerce.
                 </>
               )

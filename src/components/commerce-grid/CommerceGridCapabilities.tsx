@@ -111,7 +111,7 @@ const CommerceGridCard: React.FC<CommerceGridCardProps> = ({
             left: isMobile ? '22px' : '28px',
             zIndex: 2,
             fontFamily: "'Montserrat', sans-serif",
-            fontWeight: 700,
+            fontWeight: 600,
             fontSize: isMobile ? '28px' : '36px',
             lineHeight: 1.1,
             letterSpacing: '-1.5px',

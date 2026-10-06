@@ -18,6 +18,8 @@ interface DesignStudioCapabilityCardProps {
   frontTitle: React.ReactNode;
   frontTopIcon?: string;
   frontImagePosition?: string;
+  frontImageScale?: number;
+  frontImageOrigin?: string;
   backTitle: React.ReactNode;
   backDescription: string;
   backIcon: string;
@@ -33,6 +35,8 @@ const DesignStudioCapabilityCard: React.FC<DesignStudioCapabilityCardProps> = ({
   frontTitle,
   frontTopIcon,
   frontImagePosition = 'center center',
+  frontImageScale = 1,
+  frontImageOrigin = 'center center',
   backTitle,
   backDescription,
   backIcon,
@@ -136,7 +140,8 @@ const DesignStudioCapabilityCard: React.FC<DesignStudioCapabilityCardProps> = ({
             height: '100%',
             objectFit: 'cover',
             objectPosition: frontImagePosition,
-            transform: isActive ? 'scale(1.06)' : 'scale(1)',
+            transform: `scale(${(isActive ? 1.06 : 1) * frontImageScale})`,
+            transformOrigin: frontImageOrigin,
             transition: 'transform 0.6s cubic-bezier(0.16, 1, 0.3, 1)',
             pointerEvents: 'none',
           }}
@@ -369,7 +374,7 @@ export const DesignStudioCapabilities: React.FC = () => {
         <h2
           style={{
             fontFamily: "'Montserrat', sans-serif",
-            fontWeight: 700,
+            fontWeight: 600,
             fontSize: isMobile ? '36px' : '60px',
             lineHeight: 1.15,
             letterSpacing: '-2.3321px',
@@ -398,6 +403,8 @@ export const DesignStudioCapabilities: React.FC = () => {
             id="card-trend-intelligence"
             frontImage={imgTrendIntelligence}
             frontImagePosition={isMobile ? '78% center' : '72% center'}
+            frontImageScale={1.12}
+            frontImageOrigin="right center"
             frontTitle="Trend Intelligence"
             backTitle="Trend Intelligence"
             backDescription="Spotting what’s next to shape for meaningful market-ready designs"

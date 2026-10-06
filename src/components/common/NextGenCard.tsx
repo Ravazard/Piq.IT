@@ -145,7 +145,7 @@ export const NextGenCard: React.FC<NextGenCardProps> = ({
           : isMobile
           ? 'translateY(50px)'
           : 'translateX(-90px)',
-        opacity: isMobile ? (showEntrance ? 1 : 0) : 1,
+        opacity: showEntrance ? 1 : 0,
         transition: showEntrance
           ? `transform 0.8s cubic-bezier(0.16, 1, 0.3, 1) ${isMobile ? 0.05 : entranceDelay}s, opacity 0.8s ease ${isMobile ? 0.05 : entranceDelay}s, box-shadow 0.4s ease`
           : 'none',

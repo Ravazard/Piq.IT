@@ -607,7 +607,7 @@ export const CustomerFeedback: React.FC = () => {
               fontWeight: 600,
               lineHeight: 1.1,
               letterSpacing: isMobile ? '-2.33px' : '-0.9px',
-              color: isMobile ? '#000000' : '#552624',
+              color: '#000000',
               textAlign: isMobile ? 'left' : 'left',
               margin: 0,
             }}
@@ -636,7 +636,7 @@ export const CustomerFeedback: React.FC = () => {
                   height: '48px',
                   borderRadius: '50%',
                   border: '1.5px solid #552624',
-                  backgroundColor: canScrollLeft ? '#ffffff' : 'rgba(255,255,255,0.4)',
+                  backgroundColor: 'transparent',
                   color: canScrollLeft ? '#552624' : 'rgba(85,38,36,0.3)',
                   display: 'flex',
                   alignItems: 'center',
@@ -653,7 +653,7 @@ export const CustomerFeedback: React.FC = () => {
                 }}
                 onMouseLeave={(e) => {
                   if (canScrollLeft) {
-                    e.currentTarget.style.backgroundColor = '#ffffff';
+                    e.currentTarget.style.backgroundColor = 'transparent';
                     e.currentTarget.style.color = '#552624';
                   }
                 }}
@@ -671,7 +671,7 @@ export const CustomerFeedback: React.FC = () => {
                   height: '48px',
                   borderRadius: '50%',
                   border: '1.5px solid #552624',
-                  backgroundColor: canScrollRight ? '#ffffff' : 'rgba(255,255,255,0.4)',
+                  backgroundColor: 'transparent',
                   color: canScrollRight ? '#552624' : 'rgba(85,38,36,0.3)',
                   display: 'flex',
                   alignItems: 'center',
@@ -688,7 +688,7 @@ export const CustomerFeedback: React.FC = () => {
                 }}
                 onMouseLeave={(e) => {
                   if (canScrollRight) {
-                    e.currentTarget.style.backgroundColor = '#ffffff';
+                    e.currentTarget.style.backgroundColor = 'transparent';
                     e.currentTarget.style.color = '#552624';
                   }
                 }}
@@ -739,16 +739,21 @@ export const CustomerFeedback: React.FC = () => {
               gap: '36px',
               overflowX: 'auto',
               overflowY: 'visible',
-              paddingTop: '50px',
-              paddingBottom: '60px',
-              marginTop: '-25px',
-              paddingLeft: '16px',
+              paddingTop: '100px',
+              paddingBottom: '140px',
+              marginTop: '-75px',
+              marginBottom: '-80px',
+              marginLeft: '-71px',
+              paddingLeft: '87px',
               paddingRight: '120px',
+              WebkitMaskImage: 'linear-gradient(to right, transparent 0%, black 6%, black 94%, transparent 100%)',
+              maskImage: 'linear-gradient(to right, transparent 0%, black 6%, black 94%, transparent 100%)',
               cursor: isDragging ? 'grabbing' : 'default',
               scrollbarWidth: 'none',
               msOverflowStyle: 'none',
               WebkitOverflowScrolling: 'touch',
-              width: '100%',
+              width: 'calc(100% + 71px)',
+              boxSizing: 'border-box',
               userSelect: isDragging ? 'none' : 'auto',
             }}
           >
