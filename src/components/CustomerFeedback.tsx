@@ -449,7 +449,7 @@ export const CustomerFeedback: React.FC = () => {
               width: '100%',
               height: '100%',
               objectFit: 'cover',
-              objectPosition: 'center 40%',
+              objectPosition: 'center 50%',
               transform: zoomTransform,
               transition,
             }}
