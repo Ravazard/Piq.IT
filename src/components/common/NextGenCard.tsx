@@ -260,7 +260,7 @@ export const NextGenCard: React.FC<NextGenCardProps> = ({
         style={{
           position: 'absolute',
           top: isMobile ? (id === 'card-commerce' ? '18px' : '20px') : isActive ? '31px' : '240px',
-          left: isMobile ? '20px' : isActive ? '34px' : '28px',
+          left: isMobile ? '20px' : '28px',
           width: isMobile ? 'calc(100% - 40px)' : '308px',
           fontSize: isMobile ? '26px' : '42px',
           fontWeight: 500,
@@ -270,7 +270,7 @@ export const NextGenCard: React.FC<NextGenCardProps> = ({
           zIndex: 3,
           margin: 0,
           transition:
-            'top 0.48s cubic-bezier(0.16, 1, 0.3, 1), left 0.48s ease, color 0.3s ease',
+            'top 0.48s cubic-bezier(0.16, 1, 0.3, 1), color 0.3s ease',
           pointerEvents: 'none',
         }}
       >
@@ -309,7 +309,7 @@ export const NextGenCard: React.FC<NextGenCardProps> = ({
         style={{
           position: 'absolute',
           top: isMobile ? (isActive ? mobileDescriptionTop : '360px') : isActive ? '182px' : '520px',
-          left: isMobile ? '20px' : '34px',
+          left: isMobile ? '20px' : '28px',
           width: isMobile ? 'calc(100% - 40px)' : descriptionWidth,
           maxWidth: isMobile ? '265px' : 'none',
           fontSize: isMobile ? '15px' : descriptionFontSize,
