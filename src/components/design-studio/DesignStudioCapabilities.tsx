@@ -397,7 +397,7 @@ export const DesignStudioCapabilities: React.FC = () => {
           <DesignStudioCapabilityCard
             id="card-trend-intelligence"
             frontImage={imgTrendIntelligence}
-            frontImagePosition={isMobile ? '78% center' : '72% center'}
+            frontImagePosition={isMobile ? '78% center' : '78% center'}
             frontTitle="Trend Intelligence"
             backTitle="Trend Intelligence"
             backDescription="Spotting what’s next to shape for meaningful market ready designs"
@@ -410,7 +410,7 @@ export const DesignStudioCapabilities: React.FC = () => {
           <DesignStudioCapabilityCard
             id="card-data-driven"
             frontImage={imgDataDriven}
-            frontImagePosition={isMobile ? '82% center' : '78% center'}
+            frontImagePosition={isMobile ? '82% center' : '83% center'}
             frontTitle="Data-Driven Design"
             backTitle="Data-Driven Design"
             backDescription="Data and insight, turned into design that works"
@@ -436,7 +436,7 @@ export const DesignStudioCapabilities: React.FC = () => {
           <DesignStudioCapabilityCard
             id="card-virtual-sampling"
             frontImage={imgVirtualSampling}
-            frontImagePosition={isMobile ? '22% center' : '10% center'}
+            frontImagePosition={isMobile ? '22% center' : '11% center'}
             frontTitle={isMobile ? 'Design Visualization' : (
               <>
                 Virtual <br />
